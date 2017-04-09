@@ -32,7 +32,7 @@
     };
 
     function check_device(){
-        var device_width = window.innerWidth;
+        var device_width = window.innerWidth; // width
         var root = document.documentElement;
         console.log('start init', device_width);
         switch(true){

@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 (function(){
 
     function init(){
-
         // var body = document.getElementsByTagName('body').item(0); // XML DOM 방식
         var body = document.body;
         var target_p ;
