@@ -11,6 +11,7 @@
         }, 2000);
         
         var ul = document.createElement('ul');
+        console.log("body", body);
         setTimeout(function(){
             createUlList(ul, 'IOT VR AI IT', body);
             createList('ul', 'hi there coffe cake', body);
@@ -57,6 +58,7 @@
             li.appendChild(li_content);
             ul_node.appendChild(li);
         });
+        console.log("target", target);
         target.appendChild(ul_node);
 
         return ul_node;
@@ -90,9 +92,7 @@
         }
 
         return list;
-    
     };
-
     window.onload = init();
-    // 이 부분은 jQuery의 ready와 같다
+
 })();
