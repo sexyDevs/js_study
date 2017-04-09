@@ -25,7 +25,7 @@
 
 ##### DOM이란?
 
-브라우저 화면에 보이는 요소를 조작하기 위한 기능으로 가득 차있는 각각의 라이브러리 덩어리로 이해할 수 있다.
+브라우저 화면에 보이는 요소를 **조작**하기 위한 기능으로 가득 차있는 각각의 라이브러리 덩어리로 이해할 수 있다.
 일반적으로 자바스크립트 DOM이나 DOM은 같은 의미로 사용. DOM에서 제공하는 일반적인 기능은 아래 이미지처럼 여러 개의 DOM 객체로 나누어져 구성된다.
 
 ![DOM](/Assets/DOM.png)
@@ -119,7 +119,7 @@ HTML Parser는 `<script>` 요소를 만나면 더 이상 일을 안하고 쉰다
 - `instnaceof`
 - `constructor`
 
-※ `typeof`의 치명적 오류는 다음 시간에...
+※ `typeof`의 치명적 오류는 적절한 함수를 만들어 대처할것이다
 
 -
 
@@ -133,7 +133,8 @@ HTML Parser는 `<script>` 요소를 만나면 더 이상 일을 안하고 쉰다
 - `.querySelector()`
 - `.querySelectorAll()`
 
-※ `.querySelector()`/`.querySelectorAll()` IE 8+ 지원
+※ `.querySelector()`/`.querySelectorAll()` **IE 8+** 지원
+- IE 7 ㅠㅠ
 
 -
 
