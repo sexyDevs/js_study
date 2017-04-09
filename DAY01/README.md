@@ -1,23 +1,14 @@
 ###### Fast Campus
 
-## [JavaScript & jQuery 정복 CAMP](http://www.fastcampus.co.kr/dev_camp_jst/)
-
 # DAY01
 
 ### JavaScript 시작하기
 
 - 클라이언트 자바스크립트 환경
-- 브라우저객체모델(BOM)
-- 문서객체모델(DOM) : 선택/탐색
+- 브라우저객체모델(BOM: Browser Object Model)
+- 문서객체모델(DOM: Document Object Model) : 선택/탐색
 - 선택/탐색과 관련한 헬퍼 함수 만들기
 
--
-
-### 우리가 정복해야 할 것!
-
-[![DOM+Javascript](../../Assets/DOM+Javascript.jpg)](http://www.slideshare.net/drprolix/front-end-engineering-yui-gallery-and-your-future)
-
--
 
 ### 클라이언트 자바스크립트
 
@@ -32,16 +23,15 @@
 
 #### BOM(브라우저 객체 모델) / DOM(문서 객체 모델)
 
-![BOM-DOM](../../Assets/BOM-DOM.png)
+![BOM-DOM](/Assets/BOM-DOM.png)
 
 ##### DOM이란?
 
 브라우저 화면에 보이는 요소를 조작하기 위한 기능으로 가득 차있는 각각의 라이브러리 덩어리로 이해할 수 있다.
 일반적으로 자바스크립트 DOM이나 DOM은 같은 의미로 사용. DOM에서 제공하는 일반적인 기능은 아래 이미지처럼 여러 개의 DOM 객체로 나누어져 구성된다.
 
-![DOM](../../Assets/DOM.png)
+![DOM](/Assets/DOM.png)
 
--
 
 ###### [D] Document (문서)
 
@@ -161,7 +151,6 @@ HTML Parser는 `<script>` 요소를 만나면 더 이상 일을 안하고 쉰다
 - [자바스크립트 온라인 무료 강의, 생활코딩](http://opentutorials.org/course/743)
 - [자바스크립트+jQuery 완전정복 스터디 1 기초편](http://book.naver.com/bookdb/book_detail.nhn?bid=9650891)
 
--
 
 ### 웹폰트 로컬스토리지 저장 방법
 
