@@ -1,5 +1,3 @@
-###### Fast Campus
-
 # DAY01
 
 ### JavaScript 시작하기
